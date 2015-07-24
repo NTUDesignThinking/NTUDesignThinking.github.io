@@ -2113,7 +2113,7 @@
 			}
 
 			.main > .content.style2 {
-				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, rgb(203,137,160);
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, rgb(245,157,185);
 			}
 
 			.main > .content.style3 {
@@ -2368,8 +2368,15 @@
 
 	}
 
-.img-circle{
-	width: 90%;
-	border-radius: 50%;
-}
+	.img-circle{
+		width: 90%;
+		border-radius: 50%;
+	}
+
+	.pstyle2{
+		color: white;
+	}
+
+
+
 
