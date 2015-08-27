@@ -12,6 +12,7 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/swiper.min.css">
 
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -41,9 +42,26 @@
 					<div class="container">
 						<h2>什麼是設計思考</h2>
 						<p class="pstyle1" >Design Thinking是一個創意與設計的方法論，目的在於為各種議題尋求創新的解決方案，而能夠為未來創造更多可能性。設計思考結合了同理心、創意與理性分析的能力，進而將思考的過程更加貼近使用者需求，推動商業創意的成功。<br>
-						設計思考強調以人為本的思考方式，利用洞見、觀察、和同理心三大要素找尋人們潛藏在心裡甚至自己也沒有察覺到的需求。跨領域的團隊討論時，著重於「building up of ideas」與「defer judgments」的討論方式，由此消除對於失敗的恐懼感,並且鼓勵成員投入與參與發想的過程。最離譜、最瘋狂的想法也才能夠在發想的初期就被納入參考,而這也往往是找到創新解決方案的基礎。最後，強調用手思考，邊做邊思考；快速製作原型，讓點子可以進展得更快速。
-
+						<!--設計思考強調以人為本的思考方式，利用洞見、觀察、和同理心三大要素找尋人們潛藏在心裡甚至自己也沒有察覺到的需求。跨領域的團隊討論時，著重於「building up of ideas」與「defer judgments」的討論方式，由此消除對於失敗的恐懼感,並且鼓勵成員投入與參與發想的過程。最離譜、最瘋狂的想法也才能夠在發想的初期就被納入參考,而這也往往是找到創新解決方案的基礎。最後，強調用手思考，邊做邊思考；快速製作原型，讓點子可以進展得更快速。-->
 						</p>
+						<div class="value">
+							<img src="images/human_centered.png">
+							<h3>
+								以人為本
+							</h3>
+						</div>
+						<div class="value">
+							<img src="images/action.png">
+							<h3>
+								動手思考
+							</h3>
+						</div>
+						<div class="value">
+							<img src="images/failure.png">
+							<h3>
+								擁抱失敗
+							</h3>
+						</div>
 					</div>
 				</header>
 
@@ -61,7 +79,28 @@
 						</p>
 					</div>
 				</header>
-				<div class="content dark style2 featured">
+				<div class="swiper-header">
+					<div class="swiper-container" >
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="swiper-words">
+								</div>
+								<img src="images/activity1.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/activity2.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/activity3.jpg">
+							</div>
+							<div class="swiper-slide">
+								<img src="images/activity4.jpg">
+							</div>
+						</div>
+						<div class="swiper-pagination"></div>
+					</div>
+				</div>
+				<!--<div class="content dark style2 featured">
 					<div class="container">
 						<div class="row">
 							<div class="12u 12u(narrow)">
@@ -103,7 +142,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</div>-->
 			</section>
 
 		<!-- Third -->
@@ -347,10 +386,19 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/swiper.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script>
+			    var swiper = new Swiper('.swiper-container', {
+				        pagination: '.swiper-pagination',
+						paginationClickable: true,
+						//autoplay: 3000,
+						//autoplayDisableOnInteraction: false
+				});
+			</script>
 
 	</body>
 </html>
