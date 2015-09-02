@@ -156,12 +156,13 @@
 		}
 
 		.swiper-words{
-			position: relative;
-			width:100px;
-			height: 100px;
+			position: absolute;
+			width: 100%;
+			height: 120px;
 			float: left;
 			bottom:0;
-			background-color:red;
+			z-index: 2;
+			background-color: rgba(0,0,0, 0.5);
 		}
 
 	}
@@ -2494,9 +2495,26 @@
 	.swiper-slide img{
 		position: relative;
 		max-width:100%; 
-		myimg:expression(onload=function(){ 
-		this.style.width=(this.offsetWidth > 600)?"600px":"auto"});
+		/*myimg:expression(onload=function(){ 
+		this.style.width=(this.offsetWidth > 600)?"600px":"auto"});*/
 	
+	}
+
+	.swiper-words h1{
+		position:absolute;
+		top:10px;
+		left:50px;
+		font-size:20px;
+		color:white;
+	}
+
+	.swiper-words p{
+		position:absolute;
+		top:40px;
+		left:50px;
+		right:50px;
+		font-size:18px;
+		color:white;
 	}
 
 
