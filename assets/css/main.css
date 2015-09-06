@@ -2200,7 +2200,7 @@
 				background: #433;
 			}
 
-			.main > .content.style1 {
+			.main > .content .style1 {
 				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, linear-gradient(45deg, #FF9933, #FF9966, #FF9999);
 			}
 
@@ -2518,3 +2518,32 @@
 	}
 
 
+	.color_style1 {
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, linear-gradient(45deg, #83d3c9, #83d3c9, #83d3c9);
+				padding: 0 30px 0 30px
+			}
+
+	.color_style1 p {
+		color: white;
+	}
+	.color_style1 h2 {
+		color: white;
+	}
+	.color_style1 h3 {
+		color: white;
+	}
+
+	.color_style2 {
+				background: url("images/bgtr.svg") top right no-repeat, url("images/bgbl.svg") bottom left no-repeat, url("images/bgbl.svg") bottom left no-repeat, linear-gradient(45deg, #FFFF99, #FFFF99, #FFFF99);
+				padding: 0 30px 0 30px
+			}
+
+	.color_style2 p {
+		color: #996633;
+	}
+	.color_style2 h2 {
+		color: #663300;
+	}
+	.color_style2 h3 {
+		color: #663300;
+	}
