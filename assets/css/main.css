@@ -2443,7 +2443,7 @@
 		/* Main Sections */
 
 			.main > header {
-				padding: 2em 20px 2em 20px;
+				padding: 2em 15px 2em 15px;
 			}
 
 				.main > header h2 {
@@ -2513,7 +2513,7 @@
 		top:40px;
 		left:50px;
 		right:50px;
-		font-size:18px;
+		font-size:16px;
 		color:white;
 	}
 
